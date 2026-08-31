@@ -25,8 +25,13 @@ description: Applies the "underlying logic" IELTS Writing system to Task 1 chart
 ## 模式A：题目→范文
 
 1. 【题型判定】一句 + 信号词。
-2. 【立场路径】跑决策树（详见 references/method.md）：共存式（combine with / the joint effort / work together，或拆时间 short term / long term）或偏向式（见最高级先合理化：best = meaningful；再走高低之分：A 解决不了的 B 能）。检查"观点≠例子"：能当主题句的才是观点。
-3. 按题型选骨架：分析解决→十格；双边→正反段+让步驳论；正负→四段权衡；SEESC 贯穿所有主体段。
+2. 【题型路径】按题型分流（详见 references/method.md）：
+   - 同意与否 → 判断题干观点成立的程度，给出明确的同意度和两条不撞车的理由；必要时有限让步。
+   - 双边讨论 → **只在此处**运行 A/B 决策：共存（combine with / the joint effort / work together）、时间拆分（short term / long term）或偏向（承认 A 有意义，再说明 A 解决不了而 B 能解决的问题）。
+   - 正负发展 → 优势/劣势对比、让步与权衡；结论用 far outweigh 落点。
+   - 分析解决 → 先诊断原因或问题，再逐一给出对应建议。
+   检查“观点≠例子”：能当主题句的才是观点。
+3. 按题型选骨架：双边→正反段+让步驳论；分析解决→十格；正负→四段权衡；SEESC 贯穿所有主体段。
 4. 写 270–320 词范文，先过下方【范文自检清单】再输出；每段后加【标注】：标出 S/E/E/S/C、改写手法、置换句、回扣句。
 5. 【对应检查】逐条打勾：开头↔主体、原因↔建议、例子↔回扣。
 6. 给 1–2 道练习题 + 参考路径（题型+立场一句话）。
