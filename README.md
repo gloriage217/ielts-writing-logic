@@ -7,9 +7,18 @@ An open-source, cross-platform Agent Skill for **Codex**, **Qwen Code**, **Claud
 ## What it does
 
 - Generates Task 2 model essays with question-type analysis, a stance path, SEESC paragraph annotations, and a correspondence check.
-- Reviews learner essays using the TR / CC / LR / GR criteria and rewrites only the weakest paragraph.
+- Reviews learner essays paragraph by paragraph using a task-specific TR / CC / LR / GR scorecard, logic labels, Chinese reasoning notes, and a final Polish version that preserves the learner's original ideas.
 - Runs a three-round Socratic practice mode for learners who want guided practice rather than an immediate answer.
 - Supports Task 1 **chart** questions with an Overall + grouping + comparison approach.
+
+## See the skill in action
+
+Four compact, real-exam-style examples show the input, the output structure, and the learning outcome for each Task 2 route:
+
+- [Agree / disagree](examples/golden-outputs.md#1-agree--disagree)
+- [Discuss both views](examples/golden-outputs.md#2-discuss-both-views)
+- [Positive / negative development](examples/golden-outputs.md#3-positive--negative-development)
+- [Causes / problems + solutions](examples/golden-outputs.md#4-causes--problems--solutions)
 
 ## The underlying-logic method
 
@@ -60,6 +69,7 @@ The second **S** is the signature move. Rather than adding another example, it t
 - **“A has value” is not “A is best.”** In a discussion question, the method keeps the useful part of an opposing view, then compares what each option can and cannot solve.
 - **A paragraph must travel somewhere.** SEESC adds causal explanation, a grounded illustration, and a conditional/counterfactual test — not just polished vocabulary.
 - **Task 1 uses the same discipline.** First state the overall pattern, then group data by shared movement or contrast instead of reporting each year mechanically.
+- **Revision is traceable.** The skill retains a learner's usable stance and ideas, identifies the job of each sentence, and revises only what prevents the paragraph from scoring. It does not disguise feedback as an unrelated “Band 7 model essay”.
 
 ## Installation
 
@@ -174,6 +184,8 @@ Question: [paste an IELTS Writing question]
     ├── sentence-bank.md     # Reusable sentence patterns
     ├── example-bank.md      # Example and idea bank
     └── sample-essays.md     # Annotated benchmark essays
+└── examples/
+    └── golden-outputs.md    # Four compact Task 2 walkthroughs
 ```
 
 ## Contributing
