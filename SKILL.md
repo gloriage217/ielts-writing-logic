@@ -1,14 +1,6 @@
 ---
 name: ielts-writing-logic
-name_en: IELTS Writing Underlying Logic
-name_zh: 雅思写作底层逻辑
-description: Applies the "underlying logic" IELTS Writing system — generates annotated band-7 model essays from Task 1/Task 2 prompts, diagnoses student essays against TR/CC/LR/GR with SEESC labels, and teaches the method Socratically. Use when the user pastes an IELTS writing question, submits an IELTS essay for correction, or asks to practice or learn IELTS Writing (stance decision tree, SEESC argumentation, Task 1 charts).
-description_en: Applies the "underlying logic" IELTS Writing system — generates annotated band-7 model essays from Task 1/Task 2 prompts, diagnoses student essays against TR/CC/LR/GR with SEESC labels, and teaches the method Socratically. Use when the user pastes an IELTS writing question, submits an IELTS essay for correction, or asks to practice or learn IELTS Writing.
-description_zh: 用"底层逻辑"体系处理雅思写作：给题目生成带SEESC标注的7分档范文、按TR/CC/LR/GR逐项批改学生作文、以苏格拉底式教学带练。当用户粘贴雅思写作题目、提交作文求批改、或要求练习/学习雅思写作时使用。
-argument-hint: Paste an IELTS Writing question, or your essay (with the original question if possible)
-argument-hint_en: Paste an IELTS Writing question, or your essay (with the original question if possible)
-argument-hint_zh: 粘贴一道雅思写作题目，或你的作文（最好带原题）
-user-invocable: true
+description: Applies the "underlying logic" IELTS Writing system to Task 1 charts and Task 2 essays. Generate annotated model essays, diagnose learner drafts against TR/CC/LR/GR with SEESC labels, and teach the method Socratically. Use when a user provides an IELTS Writing question, submits an IELTS essay for correction, or asks to practise IELTS Writing.
 ---
 
 # 雅思写作底层逻辑

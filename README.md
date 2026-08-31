@@ -2,7 +2,7 @@
 
 [中文](#中文说明) · [English](#english)
 
-An open-source Agent Skill for **Codex** and **Qwen Code** that supports IELTS Writing Task 1 charts and Task 2 essays. It helps learners analyse a prompt, build a defensible position, write annotated model essays, and diagnose drafts against Task Response, Coherence and Cohesion, Lexical Resource, and Grammatical Range and Accuracy.
+An open-source, cross-platform Agent Skill for **Codex**, **Qwen Code**, **Claude Code**, **Gemini CLI**, and **Cursor**. It supports IELTS Writing Task 1 charts and Task 2 essays, helping learners analyse a prompt, build a defensible position, write annotated model essays, and diagnose drafts against Task Response, Coherence and Cohesion, Lexical Resource, and Grammatical Range and Accuracy.
 
 ## What it does
 
@@ -43,6 +43,49 @@ cp -R ielts-writing-logic ~/.qwen/skills/ielts-writing-logic
 ```
 
 Run `qwen` from a terminal, then invoke the skill with `/ielts-writing-logic`, or simply ask an IELTS Writing question and let Qwen Code select it automatically.
+
+### Claude Code
+
+Copy the folder into Claude Code's personal skills directory:
+
+```bash
+git clone https://github.com/gloriage217/ielts-writing-logic.git
+mkdir -p ~/.claude/skills
+cp -R ielts-writing-logic ~/.claude/skills/ielts-writing-logic
+```
+
+Start Claude Code and type `/ielts-writing-logic`, or ask an IELTS Writing question for automatic activation.
+
+### Gemini CLI
+
+Gemini CLI can install the repository directly:
+
+```bash
+gemini skills install https://github.com/gloriage217/ielts-writing-logic
+```
+
+Use `/skills list` to verify discovery. Gemini CLI asks for approval when a skill is activated.
+
+### Cursor
+
+Copy the folder into Cursor's personal skills directory:
+
+```bash
+git clone https://github.com/gloriage217/ielts-writing-logic.git
+mkdir -p ~/.cursor/skills
+cp -R ielts-writing-logic ~/.cursor/skills/ielts-writing-logic
+```
+
+Use `/ielts-writing-logic` in Cursor Agent, or let Cursor select it when the request matches.
+
+### Shared installation for Gemini CLI and Cursor
+
+Both platforms also discover skills under `~/.agents/skills/`. Install the folder there once if the same computer uses both agents:
+
+```bash
+mkdir -p ~/.agents/skills
+cp -R ielts-writing-logic ~/.agents/skills/ielts-writing-logic
+```
 
 ## Usage
 
@@ -95,7 +138,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 中文说明
 
-这是一个同时面向 Codex 和 Qwen Code 的雅思写作技能：可判定题型和立场、生成带 SEESC 标注的范文、按 TR／CC／LR／GR 批改作文，并以苏格拉底式方式带练。
+这是一个跨平台代理的雅思写作技能，支持 Codex、Qwen Code、Claude Code、Gemini CLI 和 Cursor：可判定题型和立场、生成带 SEESC 标注的范文、按 TR／CC／LR／GR 批改作文，并以苏格拉底式方式带练。
 
 ### 怎么用
 
@@ -112,6 +155,8 @@ Qwen Code 中则输入：
 ```text
 /ielts-writing-logic
 ```
+
+Claude Code、Gemini CLI 和 Cursor 也可以使用 `/ielts-writing-logic`。普通聊天网页版（例如通义千问聊天网页）若没有 Skills 功能，不能直接安装本地 Skill。
 
 只给题目时会生成范文；给出作文时会批改；说“教我”“带我练”或“先别给答案”时会进入互动练习模式。
 
