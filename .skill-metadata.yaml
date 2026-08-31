@@ -1,0 +1,67 @@
+examples:
+  - id: model-essay
+    title:
+      zh: 题目→带标注范文
+      en: Prompt → Annotated Model Essay
+    description:
+      zh: 给一道大作文题，输出题型判定、立场路径和带SEESC标注的高分范文
+      en: Give a Task 2 prompt; get question-type judgement, stance path and an annotated band-7 essay
+    prompt:
+      zh: |-
+        请用底层逻辑方法处理这道雅思大作文题：先判题型、跑立场决策树，再写一篇带SEESC标注的范文，最后做对应检查。
+
+        题目：{{粘贴雅思大作文题目}}
+      en: |-
+        Apply the underlying-logic method to this IELTS Task 2 question: judge the question type, run the stance decision tree, write an annotated band-7 essay (SEESC labels), then do the correspondence check.
+
+        Question: {{paste the IELTS Task 2 question}}
+  - id: task1-chart
+    title:
+      zh: 小作文图表范文
+      en: Task 1 Chart Model Essay
+    description:
+      zh: 给一道图表题，按Overall+分组+对比的方法写范文
+      en: Give a chart prompt; get a model essay built on Overall + grouping + comparison
+    prompt:
+      zh: |-
+        这道雅思小作文图表题，请按"Overall+分组+对比"的方法写范文，并检查不写原因。
+
+        题目：{{粘贴雅思小作文题目及图表描述}}
+      en: |-
+        For this IELTS Task 1 chart question, write a model essay using the Overall + grouping + comparison method, and verify no reasons are given.
+
+        Question: {{paste the Task 1 question and chart description}}
+  - id: essay-correction
+    title:
+      zh: 作文批改
+      en: Essay Correction
+    description:
+      zh: 提交自己写的作文，按TR/CC/LR/GR逐项诊断并重写最弱一段
+      en: Submit your essay; get a TR/CC/LR/GR diagnosis and a rewrite of the weakest paragraph
+    prompt:
+      zh: |-
+        请批改我这篇雅思作文，按TR/CC/LR/GR逐项诊断，引用原句指出问题，并重写最弱的一段。
+
+        原题：{{粘贴原题，没有可留空}}
+        作文：{{粘贴你的作文}}
+      en: |-
+        Please correct my IELTS essay: diagnose it against TR/CC/LR/GR, quote my sentences when pointing out problems, and rewrite only the weakest paragraph.
+
+        Original question: {{paste the question, or leave blank}}
+        Essay: {{paste your essay}}
+  - id: teaching-mode
+    title:
+      zh: 教学模式带练
+      en: Teaching Mode Practice
+    description:
+      zh: 不直接给答案，先让用户自己判断再纠正，最后给对照范文
+      en: "Socratic mode: make the user decide first, correct round by round, then show the annotated essay"
+    prompt:
+      zh: |-
+        用教学模式带我练这道题：先让我自己判题型、定立场，你逐轮纠正，最后再给带标注的范文。
+
+        题目：{{粘贴雅思写作题目}}
+      en: |-
+        Teach me with this question in teaching mode: let me judge the type and stance myself, correct me round by round, and only then show the annotated model essay.
+
+        Question: {{paste the IELTS writing question}}

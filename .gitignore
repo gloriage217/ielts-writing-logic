@@ -1,0 +1,13 @@
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
+
+# Packaged releases
+*.skill
+*.zip
+
+# Private learner material and review outputs
+*.docx
+*.pdf
+reviews/
