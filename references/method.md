@@ -43,10 +43,10 @@ A 和 B 能不能同时成立？
 
 同义链（背）：
 
-- 承担：undertake / shoulder / assume / carry on
+- 承担责任：take / assume / bear / shoulder responsibility
 - 政府：government / authority / administration
 - 责任：duty / responsibility / obligation / commitment
-- should do → be supposed / advised / expected to do
+- should do → ought to do / be expected to do / would be well advised to do（根据语气选择，不机械互换）
 
 对比式立场句（背前三个）：
 
@@ -57,14 +57,16 @@ A 和 B 能不能同时成立？
 5. Even though [A] has gained popularity, there are still those who doubt its feasibility.
 6. 亮立场：However, I firmly believe (that) …
 
-### 三、SEESC 五步论证法（主体段引擎）
+### 三、SEE–S2–C 五步论证法（主体段引擎）
+
+`SEE–S2–C` 也可紧写为 `SEESC`；显式写出 `S2` 是为了突出第二个 S 属于置换推理，不是重复立场。
 
 | 步骤 | 功能 | 常用引出词 |
 |---|---|---|
 | S 论点 | 一段只立一个论点 | There is no doubt that… / The primary benefit is… |
 | E 剖析 | 因果链 | This is because… / In other words… |
 | E 例证 | 2–3 句封顶，结尾回扣论点 | For instance… / A prime example of this is… |
-| S 置换 | 换条件再推一遍 | if / once / provided that / supposing / but for / without / unless |
+| S2 置换 | 换条件再推一遍 | if / once / provided that / supposing / but for / without / unless |
 | C 小结 | 回扣论点 | Therefore… / As a consequence… |
 
 置换推理延展维度：程度、范围、领域、对象、时间；外加反向假设（如果不这样，会怎样）。
@@ -81,7 +83,7 @@ A 和 B 能不能同时成立？
 
 反方收尾可用一次反问：What is the point of …?
 
-让步驳论三步：①立靶子 It is undoubtful / indubitable that …（只让一句）→ ②翻盘 However, this view is flawed. → ③升维：换更高层次证明对方不够，然后落到具体。
+让步驳论三步：①立靶子 Admittedly, … / It is undeniable that …（只让一句）→ ②翻盘 However, this argument overlooks … → ③升维：指出对方没有解决的更高层问题，再落到具体。
 
 ### 五、分析解决型与正负发展型骨架
 
@@ -89,16 +91,16 @@ A 和 B 能不能同时成立？
 
 1. There are some practical reasons why …
 2. The biggest concern is that …（主因）
-3. A further example comes mainly from …, where …（具象化）
-4. Another situation involves … / Hardly can one more factor remain untouched.
+3. A further cause can be seen in …, where …（具象化）
+4. Another contributing factor is …
 5. That is to say, …（把原因讲透）
 
 建议段五步：
 
 1. In terms of the [feasible / workable] solution to …
 2. 主语 be [well advised / highly recommended] to do …
-3. A further example comes mainly from …（他国经验）
-4. It is high time for … to do / that …（虚拟，从句用过去式）
+3. A useful example comes from …（确有必要时使用他国或场景经验）
+4. It is time for … to do / It is high time that …（后者从句用过去式）
 5. By doing so, …（描绘效果）
 
 正负发展型四段：开头让步先行 → 优势段（优势 + 旧方案劣势对比着写）→ 缺点段 → 权衡结论：Although … may not be flawless, its advantages in terms of … far outweigh its limitations.
@@ -113,8 +115,8 @@ A 和 B 能不能同时成立？
 
 ### 七、语言升级包
 
-- 倒装：Hardly can one more factor remain untouched.
+- 倒装：Only when these measures are combined can the problem be addressed effectively.
 - Not only 前置：Not only are the costs high, but they also require regular maintenance.
 - 虚拟：It is high time that the government took action.
 - 权衡：far outweigh its limitations
-- 高级模板句（Within the vibrant tapestry of contemporary discourse…）仅限能改写贴题时使用，全文至少一半句子必须是你自己的论证。
+- 不使用 `Within the vibrant tapestry of contemporary discourse…` 一类空泛“高级模板”。复杂结构只有在贴题且准确时才使用。

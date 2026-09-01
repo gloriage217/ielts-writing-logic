@@ -18,15 +18,15 @@ It is argued by some that unpaid community service ought to be a mandatory compo
 
 The primary benefit of compulsory community service is that it cultivates a sense of social responsibility among teenagers. This is because, when students work for a charity or help improve their neighbourhood, they are exposed to the real difficulties faced by the less fortunate, which academic textbooks can never convey. For instance, a teenager who spends a weekend teaching sports to children in a community centre is likely to understand the value of giving back to society. If schools focused exclusively on exam results, students might graduate with high scores but little civic awareness, which would be a loss for the whole community. Therefore, community service functions as an indispensable lesson in citizenship.
 
-【标注·主体①】完整 SEESC：S 立论点（社会责任感）→ E 因果（接触真实困境）→ E 例证（教社区孩子运动，回扣题干 teaching sports）→ S 置换（if 反向假设：只抓分数会怎样）→ C 小结。注意例证只有两句，结尾回扣"citizenship"。
+【标注·主体①】完整 SEE–S2–C：S 立论点（社会责任感）→ E 因果（接触真实困境）→ E 例证（教社区孩子运动，回扣题干 teaching sports）→ S2 置换（if 反向假设：只抓分数会怎样）→ C 小结。注意例证只有两句，结尾回扣"citizenship"。
 
 Besides, participating in community programmes equips students with practical skills that classrooms cannot provide. In other words, activities such as organising a charity sale require teamwork, communication and time management, all of which are highly valued by future employers. Once these abilities are developed at an early age, they can be transferred to almost any field of study or career. As a consequence, students who engage in such service are better prepared for adult life.
 
 【标注·主体②】第二段换维度：从"品德"换到"技能"，两段论据不撞车。置换用了 once（时间维度延展）。
 
-It is undoubtful that high school students already shoulder a heavy academic burden, and critics contend that compulsory service may add to their stress. However, this view is flawed. Well-designed programmes can be arranged on a flexible basis, for example a few hours per month, so that service complements rather than competes with academic study. Moreover, making the service compulsory, rather than voluntary, ensures that every student, not only the already motivated ones, receives this form of education. The worry about burden, therefore, can be addressed by sensible arrangement rather than by abandoning the policy.
+It is undeniable that high school students already shoulder a heavy academic burden, and critics contend that compulsory service may add to their stress. However, this argument overlooks how flexibly such programmes can be designed. For example, schools can require only a few hours of service per month, so that it complements rather than competes with academic study. Moreover, making the service compulsory, rather than voluntary, ensures that every student, not only the already motivated ones, receives this form of education. The worry about burden, therefore, can be addressed by sensible arrangements rather than by abandoning the policy.
 
-【标注·让步驳论】标准三步：It is undoubtful 只让一句 → However, this view is flawed 翻盘 → 落到具体（每月几小时、强制才能保证人人受惠）。注意 shoulder a burden 用了同义链里的 shoulder。
+【标注·让步驳论】标准三步：It is undeniable 只让一句 → However, this argument overlooks… 翻盘 → 落到具体（每月几小时、强制才能保证人人受惠）。注意 shoulder a burden 是自然搭配。
 
 In conclusion, although adding community service to the curriculum must be handled with care, its benefits in terms of fostering social responsibility and practical skills far outweigh the potential drawbacks. I am convinced that it should be a compulsory part of high school programmes.
 
@@ -53,13 +53,13 @@ It is a worrying phenomenon that an immense amount of food is discarded every ye
 
 【标注·开头】改写：wasted and thrown away → discarded（换词）；末句预告双段（reasons + solutions）。
 
-There are some practical reasons why food waste has become a severe issue in modern cities. The biggest concern is that consumers, encouraged by low prices and promotional offers such as "buy one get one free", routinely purchase more than they can actually consume. A further example comes mainly from large supermarkets, where oversized packages push families into buying quantities that expire before being finished. Another situation involves restaurants and canteens, where oversized portions and a culture of ordering generously leave a great deal of edible food in the bin. That is to say, waste arises both at the point of purchase and at the point of consumption.
+There are some practical reasons why food waste has become a severe issue in modern cities. The biggest concern is that consumers, encouraged by low prices and promotional offers such as "buy one get one free", routinely purchase more than they can actually consume. A further cause can be seen in large supermarkets, where oversized packages push families into buying quantities that expire before being finished. Another contributing factor is the culture of ordering generously in restaurants and canteens, which leaves a great deal of edible food in the bin. That is to say, waste arises both at the point of purchase and at the point of consumption.
 
-【标注·原因段】原因五步骨架原样套用：①There are some practical reasons why… ②The biggest concern is that…（主因：促销诱导超买）③A further example comes mainly from…（超市大包装）④Another situation involves…（餐馆大份量）⑤That is to say 收束成"购买端 + 消费端"两维度——这句收束就是 CC 的高分动作。
+【标注·原因段】原因五步骨架：①There are some practical reasons why… ②The biggest concern is that…（主因：促销诱导超买）③A further cause can be seen in…（超市大包装）④Another contributing factor is…（餐馆大份量）⑤That is to say 收束成“购买端 + 消费端”两维度。
 
-In terms of the feasible solutions to this problem, several measures can work together. Firstly, the government is well advised to launch public campaigns that encourage sensible shopping, and retailers should be advised to replace misleading bulk promotions with smaller, reasonably priced packages. A further example comes mainly from some European nations, where restaurants are required to offer doggy bags, and customers are never made to feel embarrassed about taking leftovers home. It is high time for schools to include the habit of valuing food in their moral education as well. By doing so, a growing number of citizens will be greatly encouraged to waste less, and the pressure on landfills will be relieved accordingly.
+In terms of feasible solutions to this problem, several measures can work together. Firstly, governments should launch public campaigns that encourage sensible shopping, while retailers would be well advised to replace misleading bulk promotions with smaller, reasonably priced packages. A useful example comes from restaurants that routinely offer takeaway containers, making customers feel comfortable about taking leftovers home. It is also time for schools to include respect for food in their moral education. Together, these measures could encourage citizens to waste less and reduce pressure on landfills.
 
-【标注·建议段】建议五步骨架：①In terms of the feasible solutions… ②be well advised to（政府+零售商，对应原因①）③A further example comes mainly from…（欧洲打包文化，对应原因②）④It is high time for…to（虚拟）⑤By doing so 效果。注意建议与原因一一对应，这是分析解决类的隐藏得分点。
+【标注·建议段】建议五步骨架：①In terms of feasible solutions… ②should / would be well advised to（政府+零售商，对应原因①）③A useful example comes from…（打包习惯，对应原因②）④It is time for…to ⑤Together… 描绘效果。注意建议与原因一一对应。
 
 To summarise, food waste is driven by over-purchasing at home and over-serving outside, but through the joint effort of government, retailers and educators, this worldwide problem can be effectively curbed.
 
@@ -70,4 +70,3 @@ To summarise, food waste is driven by over-purchasing at home and over-serving o
 【讲解要点（讲师用）】①把原因段和建议段并排投影，让学生连线"哪条建议治哪条原因"；②That is to say 那句收束是模板里最值钱的，提醒学生别省；③对比讲义交通拥堵范文，骨架逐句对应，让学生明白"骨架复用、血肉贴题"。
 
 ---
-

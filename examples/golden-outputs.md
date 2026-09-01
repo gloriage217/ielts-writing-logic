@@ -113,11 +113,42 @@ Solution map: reliable public transport + demand controls → fewer car journeys
 
 **Learner takes away:** 分析解决题最重要的不是列很多建议，而是让阅卷者清楚看见“这个药正好治前面诊断出的这个病”。
 
+## 5. Academic Task 1 chart
+
+### Input
+
+> **Chart description:** A line graph shows the percentage of households with internet access in Countries A, B and C in 2000, 2010 and 2020. The figures are A: 40%, 70%, 90%; B: 30%, 60%, 85%; C: 10%, 45%, 80%.
+>
+> **Learner's draft:** All three countries increased. Country A was highest in every year, and Country C increased a lot.
+
+### What the skill shows
+
+**Route:** Dynamic chart. Select the shared rise, stable ranking and narrowing gaps for the Overall; group A with B because their levels and trajectories are similar, then contrast C's faster catch-up. Do not explain *why* internet access grew.
+
+| Check | Target | Learner's next move |
+| --- | --- | --- |
+| TA | Cover the largest patterns and support them accurately. | Add the narrowing gap and use representative data. |
+| CC | Group by relationships rather than list each year. | Compare A and B together; use C as the contrasting trajectory. |
+
+```text
+Overall, household internet access rose substantially in all three countries. Country A remained the leader throughout the period, although the gaps narrowed markedly as Country C recorded the fastest growth.
+
+In 2000, internet access stood at 40% in Country A and 30% in Country B. Both figures then climbed by 30 percentage points in 2010, before reaching 90% and 85% respectively by 2020.
+
+Country C started considerably lower, at just 10%. However, its figure more than quadrupled to 45% in 2010 and rose further to 80% in the final year, leaving it only five percentage points behind Country B.
+```
+
+**中文逻辑：** Overall 不堆数字，而是先说共同趋势、最高者和差距变化；细节段按关系分组，而不是按 2000、2010、2020 逐年报数。Task 1 使用 TA，不套 Task 2 的 SEE–S2–C，也不推测增长原因。
+
+**Learner takes away:** 小作文的“逻辑”来自特征选择、分组和比较，不来自因果分析。
+
 ## Revision principle: improve the learner's writing, not replace it
 
-The skill keeps the learner's defensible stance, paragraph order and usable ideas. It labels the role of each sentence, explains the reasoning in Chinese, and then supplies two clearly different outputs:
+The skill keeps the learner's defensible stance, paragraph order and usable ideas. It labels the role of each sentence, explains the reasoning in Chinese, and then supplies two clearly different English outputs, each followed by its own Chinese translation:
 
 1. **Integrated revision:** repairs task response, logic, language and paragraph structure where needed.
 2. **Polish version:** retains the learner's original stance and core ideas, improving grammar, collocation, cohesion and sentence control only.
+
+When the integrated version introduces a necessary new argument or changes a paragraph's job, a short **Version difference** note makes that intervention explicit.
 
 If an original argument misunderstands the question, the skill says so explicitly. It does not quietly solve the problem by submitting an unrelated, polished model essay.

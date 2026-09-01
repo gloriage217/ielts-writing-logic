@@ -6,19 +6,20 @@ An open-source, cross-platform Agent Skill for **Codex**, **Qwen Code**, **Claud
 
 ## What it does
 
-- Generates Task 2 model essays with question-type analysis, a stance path, SEESC paragraph annotations, and a correspondence check.
-- Reviews learner essays paragraph by paragraph using a task-specific TR / CC / LR / GR scorecard, logic labels, Chinese reasoning notes, and a final Polish version that preserves the learner's original ideas.
+- Generates Task 2 model essays with question-type analysis, a stance path, SEE–S2–C paragraph annotations, and a correspondence check.
+- Reviews learner essays paragraph by paragraph using a task-specific TA/TR / CC / LR / GRA scorecard, logic labels, Chinese reasoning notes, two distinct English revisions, and a separate Chinese translation for each version.
 - Runs a three-round Socratic practice mode for learners who want guided practice rather than an immediate answer.
 - Supports Task 1 **chart** questions with an Overall + grouping + comparison approach.
 
 ## See the skill in action
 
-Four compact, real-exam-style examples show the input, the output structure, and the learning outcome for each Task 2 route:
+Five compact, real-exam-style examples show the input, the output structure, and the learning outcome for the four Task 2 routes plus an Academic Task 1 chart:
 
 - [Agree / disagree](examples/golden-outputs.md#1-agree--disagree)
 - [Discuss both views](examples/golden-outputs.md#2-discuss-both-views)
 - [Positive / negative development](examples/golden-outputs.md#3-positive--negative-development)
 - [Causes / problems + solutions](examples/golden-outputs.md#4-causes--problems--solutions)
+- [Academic Task 1 chart](examples/golden-outputs.md#5-academic-task-1-chart)
 
 ## The underlying-logic method
 
@@ -48,26 +49,34 @@ For a discussion prompt, *competition versus cooperation* is not automatically a
 
 When the two views genuinely compete, especially where the prompt includes an absolute claim such as **the best**, first recognise the useful value of A, then test its ceiling: what problem can A not solve that B can? This produces a precise position instead of an empty “both sides are right”.
 
-### SEESC: the paragraph engine
+### SEE–S2–C: the paragraph engine
 
-After choosing a stance, each body paragraph follows **SEESC** — a five-step reasoning chain that prevents the common “claim + example” jump.
+After choosing a stance, each body paragraph follows **SEE–S2–C** (also written compactly as **SEESC**) — a five-step reasoning chain that prevents the common “claim + example” jump. The labels describe logical jobs, not a compulsory five-sentence template.
 
 | Step | Meaning | Job in the paragraph |
 | --- | --- | --- |
 | **S** | **Standpoint** (论点) | State the point this paragraph will prove. |
 | **E** | **Explanation** (因果剖析) | Explain why it happens; make the causal link visible. |
 | **E** | **Example / evidence** (例证) | Give a concrete, relevant illustration rather than a loose story. |
-| **S** | **Substitution reasoning** (置换推理) | Change a condition and reason forward or backward: *if / without / unless …, what follows?* |
+| **S2** | **Substitution reasoning** (置换推理) | Change a condition and reason forward or backward: *if / without / unless …, what follows?* |
 | **C** | **Conclusion** (小结) | Close the chain and reconnect it to the stance. |
 
 The second **S** is the signature move. Rather than adding another example, it tests the argument under a changed condition. For instance: *If governments improve literacy and job skills, fewer people will need to rely on crime for survival.* That conditional consequence shows why the earlier explanation actually supports the claim.
+
+### Three review depths
+
+| Mode | Best for | Output |
+| --- | --- | --- |
+| **Quick review / 简改** | A fast diagnosis | Four-criterion snapshot, three priorities, and the weakest paragraph. |
+| **Standard review / 标准精改** | Normal submissions | Task-specific scorecard, paragraph-by-paragraph revision, vocabulary and language upgrades, integrated and Polish versions, plus a Chinese translation for each. |
+| **Teaching review / 教学精改** | Learners who want every correction explained | Standard review plus sentence-level grammar notes, recurring error patterns, and targeted exercises. |
 
 ### What makes the method different
 
 - **Question type determines the route.** It does not use one stance formula for four different prompts.
 - **A/B analysis has a strict home.** Coexistence, conflict, absolute claims, and time-based sequencing belong to *Discuss both views* questions.
 - **“A has value” is not “A is best.”** In a discussion question, the method keeps the useful part of an opposing view, then compares what each option can and cannot solve.
-- **A paragraph must travel somewhere.** SEESC adds causal explanation, a grounded illustration, and a conditional/counterfactual test — not just polished vocabulary.
+- **A paragraph must travel somewhere.** SEE–S2–C adds causal explanation, a grounded illustration, and a conditional/counterfactual test — not just polished vocabulary.
 - **Task 1 uses the same discipline.** First state the overall pattern, then group data by shared movement or contrast instead of reporting each year mechanically.
 - **Revision is traceable.** The skill retains a learner's usable stance and ideas, identifies the job of each sentence, and revises only what prevents the paragraph from scoring. It does not disguise feedback as an unrelated “Band 7 model essay”.
 
@@ -159,6 +168,8 @@ Question: Some people think ... To what extent do you agree or disagree?
 Essay: [paste your essay]
 ```
 
+Add `简改`, `标准精改`, or `教学精改` to choose the amount of explanation. If no depth is named, the skill uses Standard Review.
+
 ```text
 $ielts-writing-logic
 Teach me this question step by step. Do not give me a model essay first.
@@ -179,8 +190,11 @@ Question: [paste an IELTS Writing question]
 .
 ├── SKILL.md                 # Main workflow and routing rules
 ├── .skill-metadata.yaml     # Optional invocation metadata
-└── references/
+├── agents/
+│   └── openai.yaml          # Codex-facing display metadata
+├── references/
     ├── method.md            # Decision trees, frameworks, and language upgrades
+    ├── scoring-checklist.md # TA/TR/CC/LR/GRA diagnostic checklist
     ├── sentence-bank.md     # Reusable sentence patterns
     ├── example-bank.md      # Example and idea bank
     └── sample-essays.md     # Annotated benchmark essays
@@ -200,7 +214,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 中文说明
 
-这是一个跨平台代理的雅思写作技能，支持 Codex、Qwen Code、Claude Code、Gemini CLI 和 Cursor：可判定题型和立场、生成带 SEESC 标注的范文、按 TR／CC／LR／GR 批改作文，并以苏格拉底式方式带练。
+这是一个跨平台代理的雅思写作技能，支持 Codex、Qwen Code、Claude Code、Gemini CLI 和 Cursor：可判定题型和立场、生成带 SEE–S2–C 标注的范文、按 Task 1 的 TA 或 Task 2 的 TR，加上 CC／LR／GRA 批改作文，并以苏格拉底式方式带练。
 
 ### 这套方法的底层逻辑
 
@@ -219,16 +233,16 @@ This project is licensed under the [MIT License](LICENSE).
 - 同一时刻冲突、但可分阶段：用时间轴破题（短期 A、长期 B；或先 A 后 B）。
 - 真正冲突，或一方包含 `the best`、`the only`、`the key` 等绝对表达：先承认 A **有意义**，再指出 A 解决不了、但 B 能解决的更高层问题。
 
-所有 Task 2 主体段再共同使用 **SEESC**：把立场变成可检验的论证链，而不是“观点后面堆一个例子”。
+所有 Task 2 主体段再共同使用 **SEE–S2–C**（紧写为 SEESC）：把立场变成可检验的论证链，而不是“观点后面堆一个例子”。它是一组逻辑工种，不是必须机械写成五句话的模板。
 
-### SEESC 是什么？
+### SEE–S2–C 是什么？
 
 | 字母 | 含义 | 这一句要完成的任务 |
 | --- | --- | --- |
 | **S** | 论点（Standpoint） | 这段到底要证明什么？ |
 | **E** | 因果剖析（Explanation） | 为什么成立？把因果链说出来。 |
 | **E** | 例证（Example / evidence） | 用具体的人、事、场景或可信证据落地。 |
-| **S** | 置换推理（Substitution reasoning） | 换个条件再推一遍：`if / without / unless` 之后会怎样？ |
+| **S2** | 置换推理（Substitution reasoning） | 换个条件再推一遍：`if / without / unless` 之后会怎样？ |
 | **C** | 小结（Conclusion） | 收束并回扣本段与全文立场。 |
 
 其中第二个 **S（置换推理）** 是招牌步骤：不是再加一个例子，而是让论证经得起“如果这样 / 如果不这样”的检验。例如，教育能预防犯罪，不只因为它有价值；还因为**如果**政府改善识字率和职业技能，更多人便能合法谋生，犯罪诱因会相应减少。
@@ -255,7 +269,7 @@ Claude Code、Gemini CLI 和 Cursor 也可以使用 `/ielts-writing-logic`。普
 
 只给题目时会生成范文；给出作文时会批改；说“教我”“带我练”或“先别给答案”时会进入互动练习模式。
 
-批改默认是**逐段精改**：开头先给一张 TR／CC／LR／GR 四项得分看板，逐项显示“本题 6.5–7 的目标、已做到、当前缺口、下一步动作”，再逐段说明问题、给出修改理由与修改版，最后提供全文整合版。修改段会逐句标出它在论证中的作用，如 `[S 论点]`、`[E 因果]`、`[E 例证]`、`[S2 置换推理]`、`[C 回扣]`；每段后另附一段中文逻辑说明，解释这些句子如何承接和服务于题目。正负题还会标出“让步 / 权衡”。批改末尾另附本题 LR 词汇包、语言升级提示，以及保留原有思路的 Polish 版全文。若只想快速获得方向，可以说“简改”或“只改最弱段”。
+批改默认是**标准精改**：Task 2 使用 TR／CC／LR／GRA 看板，Task 1 使用 TA／CC／LR／GRA 看板；再逐段说明问题、给出修改理由与修改版。修改段会逐句标出 `[S 论点]`、`[E 因果]`、`[E 例证]`、`[S2 置换推理]`、`[C 回扣]`，并用中文解释逻辑。结尾固定提供全文整合版及中文翻译、保留原思路的 Polish 版及中文翻译。可说“简改”缩短输出，或说“教学精改”获得逐句语法、反复错误模式和定向练习。
 
 ### 开源注意事项
 

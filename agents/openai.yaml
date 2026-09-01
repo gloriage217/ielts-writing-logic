@@ -1,0 +1,4 @@
+interface:
+  display_name: "IELTS Writing Logic"
+  short_description: "用四类题型与 SEE–S2–C 诊断和提升雅思写作"
+  default_prompt: "Use $ielts-writing-logic to analyse this IELTS Writing task or review my draft with Chinese logic explanations."

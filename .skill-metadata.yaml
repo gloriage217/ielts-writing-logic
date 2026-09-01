@@ -4,15 +4,15 @@ examples:
       zh: 题目→带标注范文
       en: Prompt → Annotated Model Essay
     description:
-      zh: 给一道大作文题，输出题型判定、立场路径和带SEESC标注的高分范文
-      en: Give a Task 2 prompt; get question-type judgement, stance path and an annotated band-7 essay
+      zh: 给一道大作文题，输出题型判定、主要矛盾、立场路径和带SEE–S2–C标注的范文
+      en: Give a Task 2 prompt; get question-type judgement, the central tension, a stance path and an annotated target-level essay
     prompt:
       zh: |-
-        请用底层逻辑方法处理这道雅思大作文题：先判题型、跑立场决策树，再写一篇带SEESC标注的范文，最后做对应检查。
+        请用底层逻辑方法处理这道雅思大作文题：先判题型和主要矛盾，选择对应立场路径，再写一篇带SEE–S2–C标注的范文，最后做对应检查。
 
         题目：{{粘贴雅思大作文题目}}
       en: |-
-        Apply the underlying-logic method to this IELTS Task 2 question: judge the question type, run the stance decision tree, write an annotated band-7 essay (SEESC labels), then do the correspondence check.
+        Apply the underlying-logic method to this IELTS Task 2 question: identify the question type and central tension, select the matching stance route, write an annotated target-level essay with SEE–S2–C labels, then do the correspondence check.
 
         Question: {{paste the IELTS Task 2 question}}
   - id: task1-chart
@@ -36,16 +36,16 @@ examples:
       zh: 作文批改
       en: Essay Correction
     description:
-      zh: 提交自己写的作文，按TR/CC/LR/GR逐项诊断并重写最弱一段
-      en: Submit your essay; get a TR/CC/LR/GR diagnosis and a rewrite of the weakest paragraph
+      zh: 提交作文，获得任务专属四项看板、逐段精改、两版英文及各自中文翻译
+      en: Submit an essay for a task-specific scorecard, paragraph review, two English revisions and separate Chinese translations
     prompt:
       zh: |-
-        请批改我这篇雅思作文，按TR/CC/LR/GR逐项诊断，引用原句指出问题，并重写最弱的一段。
+        请用标准精改批改我这篇雅思作文：按任务专属四项标准诊断，引用原句逐段说明问题，并给全文整合版及翻译、Polish版及翻译。
 
         原题：{{粘贴原题，没有可留空}}
         作文：{{粘贴你的作文}}
       en: |-
-        Please correct my IELTS essay: diagnose it against TR/CC/LR/GR, quote my sentences when pointing out problems, and rewrite only the weakest paragraph.
+        Please give my IELTS essay a Standard Review: use the task-specific four criteria, quote and revise it paragraph by paragraph, then provide an integrated version and a Polish version, each followed by a Chinese translation.
 
         Original question: {{paste the question, or leave blank}}
         Essay: {{paste your essay}}
